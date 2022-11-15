@@ -70,13 +70,13 @@ namespace Differentional
             this.Chart.Series.Add(series1);
             this.Chart.Series.Add(series2);
             this.Chart.Series.Add(series3);
-            this.Chart.Size = new System.Drawing.Size(638, 408);
+            this.Chart.Size = new System.Drawing.Size(800, 600);
             this.Chart.TabIndex = 0;
             this.Chart.Text = "График";
             // 
             // Btn
             // 
-            this.Btn.Location = new System.Drawing.Point(430, 426);
+            this.Btn.Location = new System.Drawing.Point(430, 700);
             this.Btn.Name = "Btn";
             this.Btn.Size = new System.Drawing.Size(143, 38);
             this.Btn.TabIndex = 1;
@@ -152,7 +152,7 @@ namespace Differentional
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(840, 488);
+            this.ClientSize = new System.Drawing.Size(1000, 850);
             this.Controls.Add(this.label_N);
             this.Controls.Add(this.label_B);
             this.Controls.Add(this.label_A);
